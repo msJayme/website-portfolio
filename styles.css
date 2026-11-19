@@ -163,3 +163,12 @@ footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wr
   .tile { padding: 22px; }
 }
 @media (prefers-reduced-motion: reduce) { .flow, .pulse, .strip .row { animation: none; } html { scroll-behavior: auto; } .btn { transition: none; } }
+
+.links a {
+  color: #ffd3f2;
+  text-decoration: none;
+  border-bottom: 1px solid #ff4fc8;
+  padding-bottom: 2px;
+  transition: color .2s;
+}
+.links a:hover { color: var(--pink); }
